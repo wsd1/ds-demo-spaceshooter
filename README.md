@@ -1,5 +1,17 @@
 # Building a multiplayer space shooter: Part I
 
+----
+fork 为了啥：
+原版的有些小瑕疵，没法玩。这个我做了修改，git clone之后，npm install一下，再npm start就可以了。
+
+另外，别忘了在本机缺省参数运行 deepstream 6020端口。
+
+注意，客户端 controls/controls.js中有ds url的设置，请设置为合适的ip地址。
+20170209
+
+----
+
+
 > Space - the final frontier. And a surprisingly good place to blow stuff up. In this tutorial we'll walk through the steps of building a multiplayer space shooter - but one with a twist: Rather than everyone playing away on their own computer, we'll bring the spirit of good old living-room co-op to the modern age.
 
 ![Space shooter](./tutorial-images/in-game-long.gif)

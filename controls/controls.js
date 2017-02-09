@@ -1,5 +1,5 @@
 $(function() {
-	var DEEPSTREAM_URL = 'localhost:6020';
+	var DEEPSTREAM_URL = '192.168.1.44:6020';
 	var name;
 	var recordName;
 	var moveArea;
@@ -46,7 +46,7 @@ $(function() {
 
 			// Subscribe to the status event. The game is listening for subscriptions
 			// on this event and will use it as a trigger to create the spaceship
-			ds.event.subscribe( 'status/' + name );
+			ds.event.subscribe( 'status/' + name, function(){} );
 
 			// Pass the record to both direction pads
 			moveArea.setRecord( record );

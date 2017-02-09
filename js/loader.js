@@ -1,4 +1,4 @@
-const deepstream = require( 'deepstream.io-client-js' );
+//const deepstream = require( 'deepstream.io-client-js' );
 const PIXI = require( 'pixi.js' );
 
 /**
